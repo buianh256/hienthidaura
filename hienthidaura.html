@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị đầu ra</title>
+</head>
+<body>
+<div id="messageDiv"></div>
+<button type="button" onclick="showmessage2()">Clickme</button>
+<script>
+  // hiển thị qua hàm alert
+  function showmessage() {
+    alert("Hello World!");
+  }
+  // hiển thị qua sử dụng the html
+  function showmessage1(){
+      document.getElementById("messageDiv").innerHTML = "Hello World!";
+  }
+  // hiển thị qua hàm document.write
+   function showmessage2(){
+      document.write("Hello World!");
+  }
+  // hiển thị qua su dung ham console.log
+  function showmessage3(){
+      console.log("Hello World!");
+  }
+
+</script>
+</body>
+</html>
